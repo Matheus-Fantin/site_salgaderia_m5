@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h1,
+section h2,
+section h3,
+form button,
+.menu li,
+.brands-list {
+    font-family: 'Bungee', cursive;
+    font-family: 'Sigmar One', cursive;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 32px 0;
+    font-size: 150%;
+    background: #0452fa;
+    color: #ffffff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 19px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.brands-list {
+    font-size: 120%;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #182C61;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 32px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+section h1 {
+    font-size: 280%;
+}
+section .menu h2 {
+    font-size: 195%;
+}
+
+section h2 {
+    font-size: 200%;
+}
+
+.menu img {
+    height: 300px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menu li {
+    height: 380px;
+}
+
+form button {
+    background-color: #182C61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182C61;
+}
+
+footer {
+    background-color: #182C61;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+.number img {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    height: 80px;
+    left: 32px;
+}
+body {
+    background-color: #c3d4f8d2;
+}
